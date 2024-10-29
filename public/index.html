@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="icon" type="x-icon" href="/public/img/horse-head.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>kudamas - Snack enak berkualitas</title>
+
+  <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        @keyframes topFadeOut {
+                0% {
+                  
+                    top: -3rem;
+                    opacity: 0;
+                }
+
+                75% {
+                   
+                    top: 25%;
+                    opacity: 1;
+                }
+
+                
+            }
+
+            .title {
+            
+            animation-name: topFadeOut;
+            animation-duration: 5s;
+            
+            }
+  </style> 
+
+
+
+</head>
+
+<body>
+    
+    <section class="home bg-hero-image bg-cover bg-center h-screen bg-gray-600 bg-blend-overlay bg-fixed" id="home">
+        <header>
+            <nav class="flex m-auto p-4 xl:w-9/12 sm:w-9/12">
+                <h1 class="text-5xl py-2 text-brick-red-400  font-semibold">KUDAMASS</h1>
+                <ul class="flex items-stretch  text-2xl ml-4 p-2">
+                    <li class="py-2 px-2 text-dew hover:text-bittersweet-500"><a href="#product" target="_self">produk</a> </li>
+                    <li class="py-2 px-2 text-dew hover:text-bittersweet-500"><a href="#profile" target="_self">profil</a></li>
+                    <li class="py-2 px-2 text-dew hover:text-bittersweet-500"><a href="#gallery" target="_self">gallery</a></li>
+                    <li class="py-2 px-2 text-dew hover:text-bittersweet-500"><a href="#contacts" target="_self">contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="title  w-9/12 m-auto my-40 font-semibold">
+            <h1 class="title text-6xl text-dew">KUDA MASS MEMANG</h1>
+            <h1 class="title my-2 text-6xl text-dew">PALING PAS</h1>
+        </div>
+        </section>
+
+    <section class="product bg-dew" id="product">
+    <div class="productwrap my-10">
+        <div class="text-center py-2 my-4">
+        <h1 class="text-5xl font-bold text-brick-red-400">Produk Pilihan</h1>
+        <h2 class="text-3xl my-2 font-semibold">Menyajikan Produk Pilihan</h2>
+        </div>
+        
+            <div class="container grid  md:grid-cols-2 gap-2 sm:grid-cols-2 justify-items-center m-auto">
+
+                
+
+                <div class="produk hover:bg-gray-200 duration-700 cursor-pointer" data-aos="fade-up" data-aos-duration="2200">
+                    <div class="gambar">
+                       <a href="#" target="_blank"> <img src="../public/img/makaroni.png" width="390px" height="400"></a>
+                        </div>
+                        <div class="deskripsi py-2">
+                            <div class="deskripsi text-center ">
+                                <h3 class="text-xl font-bold">MAKARONI</h3>
+                                <p class="font-semibold">merupakan cemilan makaroni dengan rasa pedas</p>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="produk hover:bg-gray-200 duration-700 cursor-pointer"data-aos="fade-up" data-aos-duration="2400">
+                    <div class="gambar">
+                        <a href="#" target="_blank"> <img src="../public/img/stick.png" width="390px" height="400"></a>
+                        </div>
+                        <div class="deskripsi py-2">
+                            <div class="deskripsi text-center ">
+                                <h3 class="text-xl font-bold">STICK KERANG</h3>
+                                <p class="font-semibold">cemilan berbentuk stick denga rasa pedas</p>
+                                </div>
+                        </div>
+                </div>
+
+              
+
+            </div>
+        </div>
+    </section>
+
+    <section class="profile bg-dew" id="profile">
+
+    <div class="profilewrap my-60">
+        <div class="text-center py-2 text-5xl font-bold text-brick-red-400">
+            <h1>Dibalik Kuda Mass</h1>
+        </div>
+        <div class="containerprofile w-9/12 grid grid-cols-2 py-2 gap-4 justify-items-center m-auto my-4">
+
+            <div class="maleprofile py-4 px-2" data-aos="zoom-in" data-aos-delay="500">
+                <img src="../public/img/cowok1.jpg" class="rounded-full w-80 h-80 m-auto">
+                <div class="owner text-center py-4">
+                <h1 class="text-3xl font-bold text-bittersweet-500">Samari</h1>
+                <p class="text-2xl font-semibold">Bapak Samari merupakan seorang pegawai negeri sipil bersama sang istri, ibu Mutrifah mengembangkan bisinis jajan kuda mass hingga saat ini</p>
+            </div>
+            </div>
+
+            <div class="femaleprofile py-4 px-2" data-aos="zoom-in" data-aos-delay="500">
+                <img src="../public/img/cewek2.jpg" class="rounded-full w-80 h-80 m-auto">
+                <div class="owner text-center py-4">
+                    <h1 class="text-3xl font-bold text-bittersweet-500">Mutrifah</h1>
+                    <p class="text-2xl font-semibold">Memanfaatkan keterampilan masaknya ibu mutrifah bersama bapak samari bersama sama mengembangkan bisnis jajan kuda mass</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="gallery bg-dew" id="gallery">
+    <div class="gallerywrap my-80">
+        <div class="text-center py-2 my-4 text-5xl font-bold text-brick-red-400">
+            <h1>Gallery</h1>
+        </div>
+        
+        <div class="gallerycontainer grid md:grid-cols-3 grid-rows-3 gap-4  sm:grid-cols-1 m-auto w-9/12">
+            <img src="../public/img/20220107_141124.jpg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer ">
+            <img src="../public/img/whatsapp-image-.1621663077.jpeg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer">
+            <img src="../public/img/25snackkk.jpg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer">
+            <img src="../public/img/backgroundimage.jpg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer">
+            <img src="../public/img/camilaaan.jpg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer">
+            <img src="../public/img/camilan.jpg" width="350px" height="300px"class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl cursor-pointer">
+        </div>
+
+    </div>
+    </section>
+
+    <footer class="footer bg-brick-red-400" id="contacts">
+        <h1 class="text-center text-4xl text-dew font-semibold">UD KUDA MASS</h1>
+
+        <div class="contactcontainer grid grid-cols-2 justify-items-center my-2 py-2">
+            <div class="location ">
+                <div class="icon text-center">
+                    <span class="material-icons text-dew">location_on</span>
+                </div>
+                <h2 class="text-dew font-semibold"><a href="#" target="_blank">Malang,Jawa Timur</a></h2>
+            </div>
+            <div class="telephone">
+                <div class="icon text-center">
+                    <span class="material-icons text-dew">call</span>
+                </div>
+                <h2 class="text-dew font-semibold"><a href="#" target="_blank">14045000</a></h2>
+            </div>
+        </div>
+
+        <p class="text-center text-xl text-dew bg-brick-red-500">Copyright 2021 all right reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
